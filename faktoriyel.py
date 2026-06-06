@@ -4,7 +4,7 @@ def faktor(sayi):
     else:
         return sayi * faktor(sayi - 1)
 def faktor2(sayi):
-    faktor=1        #BURAK ŞAHİN TARAFINDAN KODLANDI
+    faktor=1       
     for i in range(sayi,0,-1):
         faktor=faktor*i
     return faktor
