@@ -4,7 +4,7 @@ def fibonacci(sayi):
     else:
         return fibonacci(sayi-1)+fibonacci(sayi-2)
 print(fibonacci(19))
-def fibo2(sayi):#BURAK ŞAHİN KODLADI
+def fibo2(sayi):
     yeni=1
     eski=0
     sayi+=1
