@@ -1,5 +1,5 @@
 def ikilinn(sayi):
-    if sayi==0: #BURAK ŞAHİN TARAFINDAN KODLANDI
+    if sayi==0:
         return  0
     else:
         return sayi+ikilinn(sayi-2)
